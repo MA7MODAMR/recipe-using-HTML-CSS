@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --whiteColor: hsl(0, 0%, 100%);
+    --lightGrayColor: hsl(30, 18%, 87%);
+    --roseWhiteColor: hsl(330, 100%, 98%);
+    --eggShellColor: hsl(30, 54%, 90%);
+    --wengeBrownColor: hsl(30, 10%, 34%);
+    --darkCharcoalColor: hsl(24, 5%, 18%);
+
+    --nutmegColorOpacity: hsl(14, 45%, 36%, 0.1);
+    --nutmegColor: hsl(14, 45%, 36%);
+    --darkRaspberryOpacity: hsl(332, 51%, 32%, 0.1);
+    --darkRaspberry: hsl(332, 51%, 32%);
+}
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: var(--eggShellColor);
+    font-family: YoungSerif;
+    /* font-size: 16px; */
+}
+
+section {
+    /* background-color: red; */
+    padding: 70px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .bigBox {
+    background-color: var(--whiteColor);
+    width: 550px;
+    /* height: 600px; */
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 0.2);
+}
+
+section .bigBox .imgBox {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+section .bigBox .imgBox img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+section .bigBox .captionBox {
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+}
+
+/********first**************/
+
+section .bigBox .captionBox .first h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/********second**************/
+
+section .bigBox .captionBox .second {
+    color: var(--wengeBrownColor);
+    margin: 15px 0px 10px 0px;
+    font-family: Outfit;
+    font-Weight: 400;
+    font-size: 12px;
+}
+
+/********third**************/
+
+section .bigBox .captionBox .third {
+    background-color: var(--darkRaspberryOpacity);
+    border-radius: 10px;
+    margin: 15px 0px 15px 0px;
+    padding: 10px 20px;
+    font-family: Outfit;
+    font-Weight: 500;
+    font-size: 12px;
+}
+
+section .bigBox .captionBox .third p {
+    color: var(--darkRaspberry);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section .bigBox .captionBox .third ul {
+    padding: 0px 20px;
+}
+
+section .bigBox .captionBox .third ul li {
+    color: var(--nutmegColor);
+    padding: 5px 0px;
+}
+
+section .bigBox .captionBox .third ul li span {
+    font-weight: 700;
+}
+
+/********fourth**************/
+
+section .bigBox .captionBox .fourth {
+    border-bottom: 1px solid var(--nutmegColorOpacity);
+    padding-bottom: 15px;
+}
+
+section .bigBox .captionBox .fourth h2 {
+    color: var(--nutmegColor);
+    margin-bottom: 10px;
+    font-Weight: 500;
+}
+
+section .bigBox .captionBox .fourth ul {
+    color: var(--nutmegColor);
+    padding: 0px 20px;
+    font-family: Outfit;
+    font-Weight: 500;
+    font-size: 12px;
+}
+
+section .bigBox .captionBox .fourth ul li {
+    padding: 5px 0px;
+}
+
+/********fifth**************/
+section .bigBox .captionBox .fifth {
+    border-bottom: 1px solid var(--nutmegColorOpacity);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section .bigBox .captionBox .fifth h2 {
+    color: var(--nutmegColor);
+    margin-bottom: 10px;
+    font-Weight: 500;
+}
+
+section .bigBox .captionBox .fifth ol {
+    color: var(--nutmegColor);
+    padding: 0px 20px;
+    font-family: Outfit;
+    font-size: 12px;
+}
+
+section .bigBox .captionBox .fifth ol li {
+    padding: 5px 0px;
+}
+
+section .bigBox .captionBox .fifth ol li span {
+    font-weight: 700;
+}
+
+/********sixth**************/
+
+section .bigBox .captionBox .sixth {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section .bigBox .captionBox .sixth h2 {
+    color: var(--nutmegColor);
+    font-Weight: 500;
+}
+
+section .bigBox .captionBox .sixth p {
+    color: var(--nutmegColor);
+    padding: 10px 0px;
+    font-family: Outfit;
+    font-size: 12px;
+}
+
+section .bigBox .captionBox .sixth .one{
+    color: var(--nutmegColor);
+    border-bottom: 1px solid var(--nutmegColorOpacity);
+    padding: 5px 5px;
+    font-family: Outfit;
+    font-size: 12px;
+    display: flex;
+}
+
+section .bigBox .captionBox .sixth .padleft{
+   width: 50%;
+   padding-left: 10px;
+}
+
+section .bigBox .captionBox .sixth .last{
+    color: var(--nutmegColor);
+    padding: 5px 5px;
+    font-family: Outfit;
+    font-size: 12px;
+    display: flex;
+}
